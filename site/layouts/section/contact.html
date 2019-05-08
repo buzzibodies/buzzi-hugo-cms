@@ -1,24 +1,57 @@
 {{ define "main" }}
 
-<div class="ph3 bg-off-white">
-	<div class="center mw6 pv3">
-
-		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
-
-		{{ .Content }}
-
-		<div class="flex-ns mb3">
-	        	{{ range .Params.contact_entries }}
-				<div>
-					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .text }}</p>
-				</div>
-			{{ end }}
-		</div>
-
-		{{ partial "contact-form" . }}
-
-	</div>
+<div id="topOfPage" class="topTabsWrap">
+  <div class="main">
+    <h1 class="pageTitle h3">Contact</h1>
+  </div>
 </div>
+
+<div class="mainWrap without_sidebar">
+		<div class="main">
+			<div class="content">
+				<section class="post no_margin post_format_standard postAlter page type-page">
+					<article class="post_content">
+						<div class="post_text_area">
+	
+							<section class="">
+								<div class="container">
+	
+									<div class="columnsWrap sc_columns custom_columns sc_columns_count_2">
+										<div class="columns1_2 sc_column_item sc_column_item_1 odd first">
+						<img class="img-responsive" src="/images/LittleGransden.png" alt="Map of Little Gransden">
+										</div>
+										<div class="columns1_2 sc_column_item sc_column_item_2 even">
+											<h4>Find us in every Tuesday morning<br>9:30am to 11:30am - (term time only)</h4>
+											<p><strong>Little Gransden Village Hall</strong><br>
+											<strong>Primrose Hill</strong><br>
+											<strong>Little Gransden</strong><br>
+											<strong>Sandy</strong><br>
+											<strong>SG19 3DP</strong></p>
+											<p><strong>To get in touch please send an email to: <a href="mailto:buzzibodies@gmail.com">buzzi.bodies@gmail.com</a></strong></p>
+										</div>
+									</div>
+	
+								</div>
+							</section>
+	
+							<section class="no_padding">
+								<div class="container">
+									<div class="columnsWrap sc_columns sc_columns_count_3 margin_top_middle margin_bottom_middle">
+										<div class="columns2_3 sc_column_item sc_column_item_1 odd first span_2">
+											<div class="sc_contact_form sc_contact_form_contact contact_form_1">
+											</div>
+										</div>
+										<div class="columns1_3 sc_column_item sc_column_item_3 odd after_span_2">
+										</div>
+									</div>
+								</div>
+							</section>
+	
+						</div>
+					</article>
+				</section>
+			</div>
+		</div>
+	</div>
 
 {{ end }}

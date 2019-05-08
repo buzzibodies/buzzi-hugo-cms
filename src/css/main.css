@@ -28,7 +28,7 @@
 @import './imports/_reset';
 
 /* Modules */
-@import './imports/_box-sizing';
+/* @import './imports/_box-sizing';
 @import './imports/_images';
 @import './imports/_background-size';
 @import './imports/_background-position';
@@ -70,7 +70,7 @@
 @import './imports/_z-index';
 @import './imports/_styles';
 @import './imports/_buttons';
-@import './imports/_svg';
+@import './imports/_svg'; */
 @import './imports/_cms';
 
 /* Variables */
@@ -85,3 +85,9 @@
 
 /* Uncomment out the line below to help debug layout issues */
 /*@import './imports/_debug';*/
+
+@import './import/settings.css';
+@import './import/fontello.css';
+@import './import/animation.css';
+@import './import/theme.min.css';
+@import './import/responsive.css';

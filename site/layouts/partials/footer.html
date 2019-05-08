@@ -1,54 +1,71 @@
-<footer class="bg-black ph3 pv4 white">
+<div class="footerContentWrap">
+    <footer class="footerWrap footerStyleLight contactFooterWrap">
+      <div class="main contactFooter">
+        <section>
+          <div class="contactAddress">
+            <address class="">
+              Buzzibodies Baby & Toddler Group<br>
+			  Little Gransden Village Hall<br>
+              Primrose Hill<br>
+              Little Gransden<br>
+              Sandy<br>
+              SG19 3DP
+          </div>
+          <div class="contactShare">
+            <ul>
+              <li>
+                <a class="social_icons fShare facebook_image" href="https://www.facebook.com/buzzi.bodies" target="_blank" title="Facebook">
+                  <span></span>
+                </a>
+              </li>
+              <li>
+                <a class="social_icons fShare email_icon_image" href="mailto:buzzi.bodies@gmail.com" title="Email">
+                  <span></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </footer>
+    <div class="upToScrollWrapper">
+      <div class="upToScroll">
+        <a href="#" class="scrollToTop" title="Back to top">
+        </a>
+      </div>
+    </div>
+    <div class="copy main">
+      <div class="copyright">
+        <a href="/">BuzziBodies</a> &copy;  All Rights Reserved
+        <!-- <a href="#">Terms</a> and <a href="#">Privacy</a> -->
+      </div>
+    </div>
+  </div>
+</div>
 
-	<div class="mw7 center pt3">
+<div class="upToScroll">
+<a href="#" class="addBookmark icon-star-empty" title="Add the current page into bookmarks"> </a>
+<a href="#" class="scrollToTop icon-up-open-big" title="Back to top"> </a>
+</div>
 
-		<div class="measure-narrow center mb4">
 
-			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
-			<p class="f3 lh-title light-gray b tc mb2">Newsletter subscribe</p>
-			<p>Get awesome news from us in your inbox every two weeks. Be the first to learn about new products.</p>
 
-			{{ partial "newsletter-form" . }}
+<script src="/js/vendor/jquery-1.11.3.min.js"></script>
+<script src="/js/vendor/jquery-migrate.min.js"></script>
+<script src="/js/vendor/revslider/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+<script src="/js/vendor/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script src="/js/custom/__main.js"></script>
+<script src="/js/vendor/__packed.js"></script>
 
-		</div>
 
-		<div class="flex-ns justify-between">
+<script src="/js/custom/shortcodes_init.js"></script>
+<script src="/js/custom/_utils.js"></script>
 
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
-				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
-					<li><a href="/contact" class="link">Contact</a></li>
-				</ul>
-			</div>
 
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
-				<ul class="mb3">
-					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
-					<li><a href="/contact" class="link">Schedule and appointment</a></li>
-				</ul>
-			</div>
 
-			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
-				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
-				</ul>
-			</div>
 
-		</div>
-	</div>
-
-</footer>
-
-{{ partial "svg" . }}
+<script src="/js/custom/_front.js"></script>
+<script src="/app.js"></script>
 
 <script src="/app.js"></script>
 

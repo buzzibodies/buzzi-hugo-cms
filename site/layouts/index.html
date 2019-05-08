@@ -2,12 +2,59 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
-{{ partial "short-text" .Params.blurb}}
-
-{{ partial "2-up" .Params }}
-
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
-
-{{ partial "blog" . }}
+<div class="mainWrap without_sidebar">
+        <div class="content">
+      
+            <section class="green_section">
+              <div class="container container_style_1">
+                <div class="">
+                  <div class="sc_section bg_tint_dark">
+                    <div class="sc_content main">
+                      <div class="columnsWrap sc_columns sc_columns_count_5">
+                        <div class="columns3_5 sc_column_item sc_column_item_1 odd first span_3">
+                          <h3 class="sc_title sc_title_regular style_1 font_ubuntu title_type_2">Tuesday mornings from 9:30-11:30am <br>Little Gransden Village Hall (term time only)</h3>
+                        </div>
+                        <div class="columns2_5 sc_column_item sc_column_item_4 even span_2 after_span_3">
+                          <div class="sc_button sc_button_style_global sc_button_size_banner alignright curveButton squareButton global banner margin_bottom_none">
+                            <a href="/contact" class="">Get in touch</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+      
+            <section>
+              <div class="container container_style_1">
+                  <div class="sc_section bg_tint_light">
+                    <div class="sc_content main">
+                      <div class="columnsWrap sc_columns">
+                         <div class="columns1_1">
+      
+                         <h2>Welcome</h2>
+      <p><strong>This friendly group runs on Tuesday mornings (term time only) from 9.30-11.30am. There are lots of toys, space to run around, a craft activity and song time each week.</strong></p>
+      <p><strong>We have lots of special events at various times in the year such as a music group, “Shake, Rattle and Roll”, pottery painting, seasonal parties, messy play and a local photographer. It's a great way for parents/carers and their children to meet each other in a relaxed and fun atmosphere.</strong></p>
+      <p><strong>It's priced at £2.50 per child, 50p for additional children. A drink and snack is also included for both adults and children.</strong></p>
+      <div class="sc_button sc_button_style_global sc_button_size_banner squareButton curveButton_blue global banner margin_bottom_none">
+          <a href="/pdf/Buzzi-Bodies-General-Rules-v2.pdf" target="_blank">Welcome PDF</a>
+      </div>
+      <br>
+      
+      <!-- <h2>Term Dates 2018</h2>
+      <p><strong>Tuesdays from 9:30am to 11:30am</strong></p>
+      <p><strong>From the 16th of January, up to the week ending the 9th of February.</strong></p>
+      <p><strong>Then from the 20th of February until the week ending the 30th of March.</strong></p> -->
+      
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </section>
+      
+        </div>
+      </div>
 
 {{ end }}
