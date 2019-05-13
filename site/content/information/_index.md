@@ -1,6 +1,6 @@
 ---
 title: "Information"
-information1:
-  heading1: "Committee and Volunteers"
+heading1: "Committee and Volunteers"
+text1: "ddsdsd"
 
 ---
