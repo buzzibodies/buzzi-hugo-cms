@@ -100,3 +100,4 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Heading1, name: heading1, widget: string}
           - {label: Text1, name: text1, widget: string}
+          - {label: Download1 Title, name: download1_title, widget: string}
