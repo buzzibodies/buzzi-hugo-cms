@@ -98,9 +98,5 @@ collections: # A list of collections the CMS should be able to edit
         name: "information"
         fields:
           - {label: Title, name: title, widget: string}
-          - label: Information1
-            name: information1
-            widget: list
-            fields:
-              - {label: Heading1, name: heading1, widget: string}
-              - {label: Text1, name: text1, widget: text}
+          - {label: Heading1, name: heading1, widget: string}
+          - {label: Text1, name: text1, widget: string}
