@@ -105,9 +105,7 @@ collections: # A list of collections the CMS should be able to edit
               name: "download1",
               widget: "file",
               default: "/pdf/Buzzis-AGM-March-2017-minutes.pdf",
-              media_library:
-                config:
-                  multiple: true,
+              media_library: [{ config:[{ multiple: true }] }],
             }
           - {label: Download2 Title, name: download2_title, widget: string}
           - {label: Download3 Title, name: download3_title, widget: string}
